@@ -2,7 +2,7 @@
 
 namespace app\frontend\controller;
 
-class Index
+class Test
 {
     public function index()
     {
@@ -14,4 +14,3 @@ class Index
         return 'hello';
     }
 }
-	
