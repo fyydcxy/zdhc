@@ -1,10 +1,13 @@
 <?php
+
 namespace app\frontend\controller;
 
-class Index
+use think\Controller;
+
+class Index extends Controller
 {
     public function index()
     {
-        return Think_VERSION;
+        return '这是前端';
     }
 }
